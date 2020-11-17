@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+        .contenedor{
+            align-content: center;
+            margin: -50px;
+            background-image: url(../src/emma1.png);
+            display: grid;
+            
+        }
+        .item1{
+          font-family: serif;
+            background-color:#000;
+            margin: 30px;
+            border-radius: 30px 30px;
+            font-size: larger;
+            font-style: italic;
+           font-display: 60%;
+
+        }
+        .item2{
+          font-family: serif;
+            background-color: #fff;
+            margin: 30px;
+            border-radius: 20px 30px;
+            font-size: larger;
+            font-style: italic;
+        }
+        .item3{
+            font-family: serif;
+            background-color:red;
+            margin: 30px;
+            border-radius: 30px 30px;
+            font-size: larger;
+            font-style: italic;
+        }
+        .contenedor > div{
+            text-align: center;
+            font-size: 30px;
+            font-family: serif;
+        }
+        .prueba{
+          align-content: center;
+        
+
+        }
+      
+      
+      .login-box{
+          width: 950px;
+          height: 620px;
+          background: #000;
+          color: #fff;
+          top:50%;
+          left:50%;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          box-sizing:  border-box;
+          padding: 85px 30px;
+      }
+      
+      .login-box .avatar {
+          width: 100px;
+          height: 100;
+          border-radius: 50%; 
+          position: absolute;
+          top: -50px;
+          left: calc(50% - 50px);
+      }
+      .login-box h1{
+          margin: 0;
+          padding: 0 0 20px;
+          text-align: center;
+          font-size: 22px; 
+      
+      }
+      .login-box label{
+          margin:0;
+          padding:0;
+          font-weight:bold;
+          display: block;
+      }
+      
+      .login-box input {
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      
+      .login-box input[type="text"],
+      .login-box input[type="password"] {
+          border: none;
+          border-bottom: 1px solid #fff;
+          background: transparent;
+          outline: none;
+          height: 40px;
+          color: #fff;
+          font-size: 16px;
+      }
